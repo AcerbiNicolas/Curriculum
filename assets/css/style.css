@@ -740,6 +740,46 @@ padding: 15px;
   color: #0e2442;
   content: "/";
 }
+@media (max-width: 700px){
+  .certificade{
+    width: 300px;
+    height: 200px;
+    border-radius: 0;
+  }
+  .certificadeProblem{
+    width: 300px;
+    height: 200px;
+    border-radius: 0;
+  }
+}
+@media (min-width: 701px) {
+  .certificade{
+    width: 450px;
+    height: 350px;
+    border-radius: 0;
+  }
+  .certificade:hover{
+    transition: 1s;
+    width: 900px;
+    height: 700px;
+    border-radius: 0;
+  }
+  .certificadeProblem{
+    width: 450px;
+    height: 350px;
+    border-radius: 0;
+    border: 1px solid rgba(0, 0, 0, 0.256);
+  }
+  .certificadeProblem:hover{
+    transition: 1s;
+    width: 900px;
+    height: 700px;
+    margin-top: 220px;
+    border: 1px solid rgba(0, 0, 0, 0.256);
+    border-radius: 0;
+  }
+  
+}
 
 @media (max-width: 768px) {
   .breadcrumbs .d-flex {
