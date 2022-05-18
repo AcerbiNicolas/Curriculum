@@ -750,6 +750,7 @@ padding: 15px;
     width: 300px;
     height: 200px;
     border-radius: 0;
+    border: 1px solid rgba(0, 0, 0, 0.256);
   }
 }
 @media (min-width: 701px) {
