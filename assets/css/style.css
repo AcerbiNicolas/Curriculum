@@ -746,7 +746,8 @@ padding: 15px;
     height: 200px;
     border-radius: 0;
   }
-  .certificadeProblem{
+
+  .certificadeFirst{
     width: 300px;
     height: 200px;
     border-radius: 0;
@@ -755,6 +756,12 @@ padding: 15px;
 }
 @media (min-width: 701px) {
   .certificade{
+    transition: 1s;
+    width: 450px;
+    height: 350px;
+    border-radius: 0;
+  }
+  .certificadeFirst{
     transition: 1s;
     width: 450px;
     height: 350px;
